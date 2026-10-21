@@ -9,7 +9,7 @@ This repository contains the semantic HTML structure of my Curriculum Vitae, des
 
 ## 🌐 Live Preview
 View the published CV here:  
-👉 `https://<dein-github-benutzername>.github.io/<repository-name>/`
+👉 `https://<priska.gautschi18-oss>.github.io/<online-cv>/`
 
 ## 📂 Project Structure
 - `index.html` - Complete semantic HTML markup of the CV
