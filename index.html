@@ -7,6 +7,7 @@
   <meta name="description" content="Curriculum Vitae of Priska Jenny Gautschi">
   <title>Curriculum Vitae - Priska Jenny Gautschi</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -14,11 +15,29 @@
 
   <header class="hero" id="top">
     <figure class="portrait">
-      <img
-        src="img/priska-gautschi.jpg"
-        alt="Portrait of Priska Jenny Gautschi"
-        width="300"
-        height="350">
+
+      <button
+        class="portrait-button"
+        id="profile-photo"
+        type="button"
+        aria-label="Show a fun fact about Priska">
+
+        <img
+          src="img/priska-gautschi.jpg"
+          alt="Portrait of Priska Jenny Gautschi"
+          width="300"
+          height="350">
+      </button>
+
+      <figcaption>
+        Click the photo to discover a fun fact.
+      </figcaption>
+
+      <output
+        class="fun-fact"
+        id="fun-fact"
+        aria-live="polite">
+      </output>
     </figure>
 
     <div class="hero-content">
