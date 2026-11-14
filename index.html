@@ -1,147 +1,378 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Curriculum Vitae of Priska Jenny Gautschi">
   <title>Curriculum Vitae - Priska Jenny Gautschi</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
-  <!-- Header / Contact Information -->
-  <header>
-    <h1>Priska Jenny Gautschi</h1>
-    <p>Application for an International Internship Placement in 2027</p>
+  <header class="hero" id="top">
+    <figure class="portrait">
+      <img
+        src="img/priska-gautschi.jpg"
+        alt="Portrait of Priska Jenny Gautschi"
+        width="300"
+        height="350">
+    </figure>
 
-    <address>
-      <p>Address: Schafackerweg 18, 4132 Muttenz, Switzerland</p>
-      <p>Date of Birth: 25.07.2001</p>
-      <p>Place of Origin: Reinach AG</p>
-      <p>Phone: <a href="tel:+41791559927">+41 79 155 99 27</a></p>
-      <p>E-Mail: <a href="mailto:priska.gautschi7@hotmail.com">priska.gautschi7@hotmail.com</a></p>
-    </address>
+    <div class="hero-content">
+      <p class="eyebrow">Curriculum Vitae</p>
+
+      <h1>Priska Jenny Gautschi</h1>
+
+      <p class="subtitle">
+        Application for an International Internship Placement in 2027
+      </p>
+
+      <address class="contact">
+        <ul>
+          <li>Muttenz, Switzerland</li>
+          <li>Born 25 July 2001</li>
+          <li>
+            <a href="tel:+41791559927">
+              +41 79 155 99 27
+            </a>
+          </li>
+          <li>
+            <a href="mailto:priska.gautschi7@hotmail.com">
+              priska.gautschi7@hotmail.com
+            </a>
+          </li>
+        </ul>
+      </address>
+    </div>
   </header>
 
-  <main>
-    <!-- Education Section -->
-    <section>
+  <nav class="main-navigation" aria-label="Curriculum vitae sections">
+    <ul>
+      <li><a href="#profile">Profile</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#references">References</a></li>
+    </ul>
+  </nav>
+
+  <main class="page" id="main-content">
+    <section class="section" id="profile">
+      <h2>Profile</h2>
+
+      <p>
+        I am a Systems Engineering student specialising in mechatronics.
+        My vocational background as a polymechanic has given me practical
+        experience in manufacturing, technical documentation and
+        problem-solving.
+      </p>
+
+      <p>
+        I am seeking an international internship placement in 2027 to expand
+        my technical knowledge, improve my English and gain experience in an
+        international working environment.
+      </p>
+    </section>
+
+    <section class="section" id="education">
       <h2>Education</h2>
 
-      <article>
-        <h3>Systems Engineering Student (HF)</h3>
-        <p><strong>Period:</strong> 2025 – 2027</p>
-        <p><strong>Institution:</strong> Höhere Fachschule Technik Mittelland (HFTM)</p>
-        <p><strong>Major:</strong> Mechatronics (Automation II, Connected Systems and Software Engineering II)</p>
-        <p><strong>Completion of Basic Studies:</strong> August 11 – December 31, 2025 (24 ECTS credits achieved)</p>
-      </article>
+      <div class="timeline">
+        <article class="timeline-item">
+          <p class="period">
+            <time datetime="2025">2025</time> -
+            <time datetime="2027">2027</time>
+          </p>
 
-      <article>
-        <h3>Apprenticeship: Polymechanic EFZ (Level E)</h3>
-        <p><strong>Period:</strong> 2020 – 2024</p>
-        <p><strong>Training Company:</strong> AGS-Lehrwerkstatt für Mechanik Basel (LWB)</p>
-        <p><strong>Focus:</strong> Creating manufacturing documentation for individual components and assemblies</p>
-        <p><strong>Graduation:</strong> Final apprenticeship examination passed (Overall grade: 5.1)</p>
-      </article>
+          <h3>Systems Engineering Student (HF)</h3>
 
-      <article>
-        <h3>Vocational Preparatory School</h3>
-        <p><strong>Period:</strong> 2018 – 2020</p>
-        <p><strong>Institution:</strong> Bildungszentrum kvBL, Muttenz</p>
-        <p><strong>Field:</strong> Services, Healthcare, and Social Work</p>
-      </article>
+          <p>Höhere Fachschule Technik Mittelland (HFTM)</p>
+
+          <p>
+            Current focus: Automation II, Connected Systems and
+            Software Engineering II.
+          </p>
+
+          <p>
+            Basic studies completed with 24 ECTS credits.
+          </p>
+        </article>
+
+        <article class="timeline-item">
+          <p class="period">
+            <time datetime="2024">2024</time> -
+            <time datetime="2025">2025</time>
+          </p>
+
+          <h3>Language Stay and Personal Projects</h3>
+
+          <p>
+            Two-month language stay in Canada with intensive English training.
+          </p>
+
+          <p>
+            Assistance with home renovations, family events and relocations.
+          </p>
+        </article>
+
+        <article class="timeline-item">
+          <p class="period">
+            <time datetime="2020">2020</time> -
+            <time datetime="2024">2024</time>
+          </p>
+
+          <h3>Apprenticeship as a Polymechanic EFZ, Level E</h3>
+
+          <p>AGS-Lehrwerkstatt für Mechanik Basel</p>
+
+          <p>
+            Focus on manufacturing documentation for individual components
+            and assemblies.
+          </p>
+
+          <p>
+            Final apprenticeship examination: overall grade 5.1.
+          </p>
+        </article>
+
+        <article class="timeline-item">
+          <p class="period">
+            <time datetime="2018">2018</time> -
+            <time datetime="2020">2020</time>
+          </p>
+
+          <h3>Vocational Preparatory School</h3>
+
+          <p>Bildungszentrum kvBL, Muttenz</p>
+
+          <p>
+            Field: Services, Healthcare and Social Work.
+          </p>
+        </article>
+      </div>
     </section>
 
-    <!-- Language Stay and Projects -->
-    <section>
-      <h2>Language Stay &amp; Personal Projects</h2>
+    <section class="section" id="skills">
+      <h2>Skills and Qualifications</h2>
 
-      <article>
-        <h3>Language Stay in Canada (2 months)</h3>
-        <p><strong>Period:</strong> 2024 – 2025 (Graduation: June 27, 2025)</p>
-        <p><strong>School:</strong> Global Village Victoria</p>
-        <p><strong>Content:</strong> General English (20 lessons), IELTS Preparation (10 lessons), aiming for C1 level</p>
-      </article>
+      <p>
+        The percentages show my current self-assessment based on education
+        and practical experience.
+      </p>
 
-      <article>
-        <h3>Structural Projects</h3>
-        <p>Assistance with renovations at parental home (flooring, painting).</p>
-      </article>
+      <div class="skills">
+        <article class="skill">
+          <div class="skill-heading">
+            <h3>SolidWorks</h3>
+            <span>80%</span>
+          </div>
 
-      <article>
-        <h3>Event &amp; Logistics Support</h3>
-        <p>Organization and assistance with family events and relocations.</p>
-      </article>
+          <div
+            class="skill-track"
+            role="progressbar"
+            aria-label="SolidWorks knowledge"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            aria-valuenow="80">
+
+            <span class="skill-fill level-80">80%</span>
+          </div>
+        </article>
+
+        <article class="skill">
+          <div class="skill-heading">
+            <h3>Microsoft Office</h3>
+            <span>75%</span>
+          </div>
+
+          <div
+            class="skill-track"
+            role="progressbar"
+            aria-label="Microsoft Office knowledge"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            aria-valuenow="75">
+
+            <span class="skill-fill level-75">75%</span>
+          </div>
+        </article>
+
+        <article class="skill">
+          <div class="skill-heading">
+            <h3>Project Management</h3>
+            <span>70%</span>
+          </div>
+
+          <div
+            class="skill-track"
+            role="progressbar"
+            aria-label="Project management knowledge"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            aria-valuenow="70">
+
+            <span class="skill-fill level-70">70%</span>
+          </div>
+        </article>
+
+        <article class="skill">
+          <div class="skill-heading">
+            <h3>English</h3>
+            <span>70%</span>
+          </div>
+
+          <div
+            class="skill-track"
+            role="progressbar"
+            aria-label="English knowledge"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            aria-valuenow="70">
+
+            <span class="skill-fill level-70">70%</span>
+          </div>
+        </article>
+
+        <article class="skill">
+          <div class="skill-heading">
+            <h3>Programming Basics</h3>
+            <span>60%</span>
+          </div>
+
+          <div
+            class="skill-track"
+            role="progressbar"
+            aria-label="Programming knowledge"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            aria-valuenow="60">
+
+            <span class="skill-fill level-60">60%</span>
+          </div>
+        </article>
+      </div>
     </section>
 
-    <!-- Skills and Qualifications -->
-    <section>
-      <h2>Skills &amp; Qualifications</h2>
+    <section class="section" id="achievements">
+      <h2>Achievements</h2>
 
-      <article>
-        <h3>Software &amp; Technical Skills</h3>
-        <ul>
-          <li><strong>3D CAD Systems:</strong> SolidWorks</li>
-          <li><strong>Office Applications:</strong> Microsoft Word, Excel, PowerPoint (ECDL Profile / Base Certificate)</li>
-          <li><strong>Foundations:</strong> Systems Management, Network Technology, and Programming Basics (acquired during HFTM studies)</li>
-        </ul>
-      </article>
+      <ul class="achievement-list">
+        <li>
+          <strong>1st place in German-speaking Switzerland:</strong>
+          FRAISA ToolChampions 2021/2022.
+        </li>
 
-      <article>
-        <h3>Languages</h3>
-        <ul>
-          <li><strong>German:</strong> Native speaker</li>
-          <li><strong>English:</strong> Upper Intermediate to Advanced (B2–C1); Cambridge Preliminary English Test (PET) – Level B1 (Grade C, overall score 151, March 2020)</li>
-        </ul>
-      </article>
+        <li>
+          <strong>Unternehmerwoche 2024:</strong>
+          Business simulation and management programme.
+        </li>
 
-      <article>
-        <h3>Project Management</h3>
-        <p><strong>Certified Project Management Associate (IPMA Level D)</strong> – Issued by VZPM (Certified Dec 04, 2025, Certificate No.: D-2025-26990)</p>
-      </article>
+        <li>
+          <strong>Rent-a-Stift 2022:</strong>
+          Training in presentation techniques and teaching delivery.
+        </li>
 
-      <article>
-        <h3>Driving License</h3>
-        <p>Category B (Passenger cars)</p>
-      </article>
-    </section>
-
-    <!-- Extracurricular Achievements -->
-    <section>
-      <h2>Extracurricular Achievements &amp; Engagement</h2>
-      <ul>
-        <li><strong>1st Place Regional (German-speaking Switzerland):</strong> FRAISA ToolChampions Competition (CNC Machining 2021/2022)</li>
-        <li><strong>Unternehmerwoche 2024:</strong> Business simulation &amp; management program (Gewerbeverband Basel-Stadt)</li>
-        <li><strong>Rent-a-Stift (2022):</strong> Training in presentation techniques and teaching delivery</li>
+        <li>
+          <strong>IPMA Level D:</strong>
+          Certified Project Management Associate, issued by VZPM.
+        </li>
       </ul>
     </section>
 
-    <!-- Hobbies -->
-    <section>
-      <h2>Hobbies &amp; Interests</h2>
-      <p>Reading books, spending time outdoors in nature, skiing and snowboarding in the winter.</p>
+    <section class="section" id="projects">
+      <h2>Projects and Experience</h2>
+
+      <div class="project-layout">
+        <div>
+          <h3>Technical Projects</h3>
+
+          <p>
+            Experience with technical documentation, SolidWorks and
+            manufacturing processes during my apprenticeship.
+          </p>
+        </div>
+
+        <figure class="project-image">
+          <img
+            src="img/technical-project.jpg"
+            alt="Example of a technical project"
+            width="600"
+            height="400">
+
+          <figcaption>
+            Example of my technical project work
+          </figcaption>
+        </figure>
+      </div>
     </section>
 
-    <!-- References -->
-    <section>
+    <section class="section" id="interests">
+      <h2>Interests</h2>
+
+      <p>
+        In my free time, I enjoy reading, spending time outdoors,
+        skiing and snowboarding.
+      </p>
+    </section>
+
+    <section class="section" id="references">
       <h2>References</h2>
 
-      <article>
-        <h3>Dominik Stauffer</h3>
-        <p>Apprenticeship Trainer, AGS-Lehrwerkstatt für Mechanik Basel</p>
-        <p>E-Mail: <a href="mailto:dominik.stauffer@lwbasel.ch">dominik.stauffer@lwbasel.ch</a></p>
-        <p>Phone: <a href="tel:+41616956406">+41 61 695 64 06</a></p>
-      </article>
+      <div class="reference-grid">
+        <article class="reference">
+          <h3>Dominik Stauffer</h3>
 
-      <article>
-        <h3>Michael Heinimann</h3>
-        <p>Head of Training Workshop, AGS-Lehrwerkstatt für Mechanik Basel</p>
-        <p>E-Mail: <a href="mailto:michael.heinimann@lwbasel.ch">michael.heinimann@lwbasel.ch</a></p>
-        <p>Phone: <a href="tel:+41616956405">+41 61 695 64 05</a></p>
-      </article>
+          <p>Apprenticeship Trainer</p>
+
+          <p>AGS-Lehrwerkstatt für Mechanik Basel</p>
+
+          <p>
+            <a href="mailto:dominik.stauffer@lwbasel.ch">
+              dominik.stauffer@lwbasel.ch
+            </a>
+          </p>
+
+          <p>
+            <a href="tel:+41616956406">
+              +41 61 695 64 06
+            </a>
+          </p>
+        </article>
+
+        <article class="reference">
+          <h3>Michael Heinimann</h3>
+
+          <p>Head of Training Workshop</p>
+
+          <p>AGS-Lehrwerkstatt für Mechanik Basel</p>
+
+          <p>
+            <a href="mailto:michael.heinimann@lwbasel.ch">
+              michael.heinimann@lwbasel.ch
+            </a>
+          </p>
+
+          <p>
+            <a href="tel:+41616956405">
+              +41 61 695 64 05
+            </a>
+          </p>
+        </article>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <p><small>&copy; Priska Jenny Gautschi – Curriculum Vitae</small></p>
-  </footer>
+  <footer class="footer">
+    <p>&copy; 2026 Priska Jenny Gautschi</p>
 
+    <p>
+      <a href="#top">Back to top</a>
+    </p>
+  </footer>
 </body>
+
 </html>
