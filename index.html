@@ -15,7 +15,6 @@
 
   <header class="hero" id="top">
     <figure class="portrait">
-
       <button
         class="portrait-button"
         id="profile-photo"
@@ -313,17 +312,29 @@
             Experience with technical documentation, SolidWorks and
             manufacturing processes during my apprenticeship.
           </p>
+
+          <p>
+            Click the project image to display another view.
+          </p>
         </div>
 
         <figure class="project-image">
-          <img
-            src="img/technical-project.jpg"
-            alt="Example of a technical project"
-            width="600"
-            height="400">
+          <button
+            class="project-image-button"
+            id="project-image-button"
+            type="button"
+            aria-label="Show the next view of my technical project">
 
-          <figcaption>
-            Example of my technical project work
+            <img
+              id="project-image"
+              src="img/technical-project.jpg"
+              alt="View 1 of my technical project"
+              width="600"
+              height="400">
+          </button>
+
+          <figcaption id="project-caption">
+            View 1 of my technical project
           </figcaption>
         </figure>
       </div>

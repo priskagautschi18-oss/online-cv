@@ -29,4 +29,46 @@ function showFunFact() {
 
 photo.addEventListener("click", showFunFact);
 
+
+const projectImageButton =
+  document.getElementById("project-image-button");
+
+const projectImage =
+  document.getElementById("project-image");
+
+const projectCaption =
+  document.getElementById("project-caption");
+
+const projectImages = [
+  "img/technical-project.jpg",
+  "img/technical-project2.jpg",
+  "img/technical-project3.jpg"
+];
+
+let currentProjectImage = 0;
+
+function changeProjectImage() {
+  currentProjectImage = currentProjectImage + 1;
+
+  if (currentProjectImage === projectImages.length) {
+    currentProjectImage = 0;
+  }
+
+  const imageNumber = currentProjectImage + 1;
+
+  projectImage.src = projectImages[currentProjectImage];
+
+  projectImage.alt =
+    "View " + imageNumber + " of my technical project";
+
+  projectCaption.textContent =
+    "View " + imageNumber + " of my technical project";
+}
+
+projectImageButton.addEventListener(
+  "click",
+  changeProjectImage
+);
+
+
 console.log("I see you sneaking in the console :D");
