@@ -42,8 +42,8 @@ This is only pseudo-security for a static school project. Real protection would 
 `-- img
     |-- priska-gautschi.jpg
     |-- technical-project.jpg
-    |-- technical-project-2.jpg
-    `-- technical-project-3.jpg
+    |-- technical-project2.jpg
+    `-- technical-project3.jpg
 ```
 
 ## Author
